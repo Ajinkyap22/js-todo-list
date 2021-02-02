@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="intro">
+        <h1>To-Do List</h1>
+      </div>
+
+      <div class="help-text">
+        <p id="first">
+          Enter text into the input field to add items to your list.
+        </p>
+        <p id="second">Click the item to mark it as complete.</p>
+        <p id="third">Click the "X" to remove the item from your list.</p>
+      </div>
+
+      <div class="add-item">
+        <input
+          id="user-input"
+          type="text"
+          placeholder="New item..."
+          maxlength="27"
+        />
+        <button id="enter">✔</button>
+      </div>
+
+      <!-- Empty List -->
+      <div class="list-items">
+        <ul id="list"></ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
