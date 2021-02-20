@@ -2,14 +2,14 @@
 > A Mobile friendly To Do List web application to help keep track of your daily tasks.
 
 ## Table of contents
-* [Link](#link)
+* [Preview Link](#preview-link)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
 
 
-## Link
+## Preview Link
 [JavaScript To Do List](https://ajinkyap22.github.io/JS-To-Do-List/)
 
 ## Technologies
