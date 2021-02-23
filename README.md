@@ -10,7 +10,7 @@
 
 
 ## Preview Link
-[JavaScript To Do List](https://ajinkyap22.github.io/js-todo-List/)
+[JavaScript To Do List](https://ajinkyap22.github.io/js-todo-list/)
 
 ## Technologies
 * HTML5
