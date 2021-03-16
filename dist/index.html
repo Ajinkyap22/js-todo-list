@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>To-Do List</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn2.iconfinder.com/data/icons/business-office-icons/256/To-do_List-512.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="intro">
+        <h1>To-Do List</h1>
+      </div>
+
+      <div class="help-text">
+        <p>Enter the task into the input field to add it to your list.</p>
+        <p>Click the task to mark it as complete.</p>
+        <p>Click the "X" to remove the task from your list.</p>
+      </div>
+
+      <form class="add-item">
+        <input
+          id="user-input"
+          type="text"
+          placeholder="New item"
+          maxlength="50"
+          required
+        />
+        <select class="priority" required>
+          <option value="normal">Normal Priority</option>
+          <option value="low">Low Priority</option>
+          <option value="high">High Priority</option>
+        </select>
+        <button id="enter">✔</button>
+      </form>
+
+      <div class="list-items">
+        <!-- Empty List -->
+        <ul id="list"></ul>
+        <button class="btn-menu clear__all">Clear All Tasks</button>
+        <button class="btn-menu clear__some">Clear Completed Tasks</button>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Built by
+        <a href="https://github.com/Ajinkyap22" target="_blank"
+          >Ajinkya Palaskar</a
+        >
+        |
+        <a href="https://github.com/Ajinkyap22/js-todo-list" target="_blank"
+          >Source code</a
+        >
+      </p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
