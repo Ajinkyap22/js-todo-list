@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1547480053-7d174f67b557?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.intro {
+  margin: auto;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.help-text {
+  color: white;
+  padding: 10px;
+}
+
+.help-text > * {
+  padding: 10px;
+}
+
+#user-input {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  min-width: 55%;
+  padding: 10px;
+}
+
+.priority {
+  padding: 8px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+#enter {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: royalblue;
+  transition: all 0.3s ease;
+  outline: none;
+  cursor: pointer;
+}
+
+#enter:hover {
+  background-color: #5ec576;
+}
+
+#list {
+  text-align: left;
+  margin: 20px auto;
+}
+
+.todo-item {
+  list-style: none;
+  padding: 5px;
+  color: #ffffff;
+  text-transform: capitalize;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  width: 69%;
+  margin: 1rem auto;
+  display: flex;
+}
+
+.todo-item > span {
+  flex: 1;
+}
+
+.todo-item:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+}
+
+.edit {
+  float: right;
+}
+
+.low {
+  background-color: gray;
+}
+
+.normal {
+  background-color: #f3f3f3;
+  color: black;
+}
+
+.high {
+  background-color: #e95b31;
+}
+
+.priority__label {
+  padding: 5px;
+  font-style: italic;
+}
+
+.btn {
+  background: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 0 5px;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+
+.btn-menu {
+  background: #5ec576;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-menu:hover {
+  transform: scale(1.05);
+  transition: all 0.2s;
+}
+
+.done {
+  background: #51df70 !important;
+  color: black;
+  text-decoration: line-through;
+  color: grey;
+}
+
+.delete {
+  display: none;
+}
+
+footer {
+  font-size: 14px;
+  padding: 5px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #202020;
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: orangered;
+}
+
+@media only screen and (max-width: 860px) {
+  body {
+    background-attachment: fixed;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .help-text {
+    font-size: 14px;
+  }
+
+  .todo-item {
+    font-size: 14px;
+    width: 75%;
+  }
+
+  #user-input {
+    min-width: 55%;
+    padding: 5px;
+  }
+
+  .priority {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  #enter {
+    padding: 5px 10px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .btn-menu {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .todo-item {
+    width: 90%;
+    font-size: 12px;
+    padding: 5px;
+    display: flex;
+  }
+
+  .todo-item > span {
+    flex: 1;
+  }
+
+  #user-input {
+    min-width: 50%;
+  }
+
+  .priority {
+    font-size: 11px;
+  }
+
+  #enter {
+    padding: 5px 8px;
+  }
+
+  .btn-menu {
+    padding: 5px;
+  }
+}
