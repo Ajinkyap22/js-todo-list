@@ -1,5 +1,5 @@
 ﻿# JavaScript To Do List
-> A Mobile friendly To Do List web application to help keep track of your daily tasks.
+> A responsive To Do List web application to help keep track of your daily tasks.
 
 ## Table of contents
 * [Preview Link](#preview-link)
@@ -18,17 +18,19 @@
 * JavaScript
 
 ## Setup
-Just run the index.html file & you're good to go.
+* You will need to install Node.js
+* Go to the project directory in the terminal & install the required dependencies by using: npm install
+* Build the distribution files using: npm run build
+* Just run the index.html file to run the project
 
 ## Features
-* Add a new task
-* Delete a task
+* Add a new task & Delete a task
+* Assign priority to a task
 * Mark a task as completed
 * Responsive - Both mobile & desktop friendly
 
 ## Status
-Project is:  _finished_
+Project is: _finished_
 
 ## Contact
-
-feel free to contact me at my mail - palaskarajinkya22@gmail.com
+Feel free to contact me at my mail - palaskarajinkya22@gmail.com
