@@ -1,10 +1,8 @@
 "use strict";
 
 // DOM Elements
-const userInput = document.getElementById("user-input");
 const list = document.getElementById("list");
 const addItem = document.querySelector(".add-item");
-const priority = document.querySelector(".priority");
 const btnClearAll = document.querySelector(".clear__all");
 const btnClearSome = document.querySelector(".clear__some");
 
